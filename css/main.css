@@ -1,5 +1,13 @@
 html {
   font-family: Open Sans;
   line-height: 1.5;
-  background-color: #444;
+  background-color: grey;
+}
+
+h3 h4 {
+  font-weight: bold;
+}
+
+section {
+  display: flex;
 }
