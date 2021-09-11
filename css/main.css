@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: Open sans;
   line-height: 1.5;
+  font-family: Open Sans;
 }
 
 *, *::before, *::after {
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 1.5rem;
+  margin: 0;
   background-color: #ccc;
 }
 
@@ -29,8 +29,8 @@ hgroup {
 
 section li {
   display: flex;
-  flex-direction: row;
-  justify-content:flex-start;
+  flex-direction:row;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
 }
@@ -40,14 +40,16 @@ p {
   padding: 2rem;
 }
 
-a {
-  display: flex;
-  justify-content: flex-end;
-  color: #fff;
+section a {
   padding: .5rem 1rem .6rem;
-  background-color: #555
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #444;
+  color: #fff;
 }
 
 a:link {
-    text-decoration:none;
+  text-decoration: none;
 }
