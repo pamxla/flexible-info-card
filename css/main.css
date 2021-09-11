@@ -1,13 +1,53 @@
 html {
-  font-family: Open Sans;
+  box-sizing: border-box;
+  font-family: Open sans;
   line-height: 1.5;
-  background-color: grey;
 }
 
-h3 h4 {
-  font-weight: bold;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
-section {
+body {
+  margin: 1.5rem;
+  background-color: #ccc;
+}
+
+img {
+  width: 5rem;
+}
+
+h2 {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+hgroup {
+  padding: 2rem;
+}
+
+section li {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+p {
+  color: #444;
+  padding: 2rem;
+}
+
+a {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  padding: .5rem 1rem .6rem;
+  background-color: #555
+}
+
+a:link {
+    text-decoration:none;
 }
